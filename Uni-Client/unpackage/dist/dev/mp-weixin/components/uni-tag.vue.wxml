@@ -1,0 +1,4 @@
+<template name="df56f19a">
+  <view class="_view data-v-5381297a uni-tag {{[  disabled === true || disabled === 'true' ? 'uni-tag-disabled' : '',  inverted === true || inverted === 'true' ? 'uni-tag-inverted' : '',  circle === true || circle === 'true' ? 'uni-tag-circle' : '',  'uni-tag-' + size,  'uni-tag-' + type]}}"
+    wx:if="{{text}}" bindtap="handleProxy" data-eventid="{{'HpD-0'}}" data-comkey="{{$k}}">{{text}}</view>
+</template>

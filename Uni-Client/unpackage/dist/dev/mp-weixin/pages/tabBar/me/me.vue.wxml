@@ -1,0 +1,24 @@
+<import src="/components/uni-badge.vue.wxml" />
+<template name="59719b92">
+  <view class="_view data-v-0b9afc7f">
+    <view class="_view data-v-0b9afc7f uni-flex uni-row" style="height: 150rpx;background-color: #61A1F1;">
+      <view class="_view data-v-0b9afc7f" style="width: 70%;color: #FFFFFF;margin-top: 25rpx;margin-left: 60rpx;font-size: 40rpx;">游客</view>
+      <image src="../../../static/60x60.png" style="height: 120rpx;width: 120rpx;border-radius: 50%;" mode class="_image data-v-0b9afc7f"></image>
+    </view>
+    <view class="_view data-v-0b9afc7f uni-card">
+      <view class="_view data-v-0b9afc7f uni-list">
+        <view class="_view data-v-0b9afc7f uni-list-cell" hover-class="uni-list-cell-hover">
+          <view class="_view data-v-0b9afc7f uni-list-cell-navigate uni-navigate-right uni-navigate-badge"> 我的咨询
+            <template text="123" type="success" data="{{...$root['0'], ...$root[$kk+'0Yg-0'],$root}}" is="2201ba7c"></template>
+          </view>
+        </view>
+        <view class="_view data-v-0b9afc7f uni-list-cell uni-list-cell-last" hover-class="uni-list-cell-hover">
+          <view class="_view data-v-0b9afc7f uni-list-cell-navigate uni-navigate-right uni-navigate-badge"> 我的申请
+            <template text="12" type="primary" data="{{...$root['0'], ...$root[$kk+'brn-1'],$root}}" is="2201ba7c"></template>
+          </view>
+        </view>
+      </view>
+    </view>
+    <button type="primary" style="margin: 30rpx;" class="_button data-v-0b9afc7f">登录</button>
+  </view>
+</template>
